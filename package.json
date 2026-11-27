@@ -1,0 +1,26 @@
+{
+  "name": "trade-file-formatter",
+  "version": "1.0.0",
+  "description": "Matrix Trade Outbound to Inbound Settlement & Formatting Automation Tool",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node -e \"import('fs').then(f => f.copyFileSync('dist/index.html', 'dist/404.html'))\"",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "lucide-react": "^1.82.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.4.0"
+  }
+}
